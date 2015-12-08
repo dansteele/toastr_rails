@@ -21,9 +21,9 @@ Add to your application.js and application.css:
   
     //= require toastr_rails
 
-You can put this in your layout/application.html file if you want to chach flash messages in a toast: 
+You can put this in your layout/application.html.erb file if you want to chach flash messages in a toast: 
 
-    = render 'toastr_rails/flash'
+    <%= render 'toastr_rails/flash' %>
 
 ## Defaults:
 
